@@ -1,0 +1,24 @@
+# Site settings — edit these first.
+title: Your Name
+description: Researcher. Writing about ideas, research, and whatever I'm thinking about.
+email: you@example.com
+# Leave baseurl empty if the repo is named <username>.github.io.
+# If the repo has another name (e.g. personal-website), set baseurl: "/personal-website"
+baseurl: ""
+url: ""
+
+# Links shown in the footer. Delete any you don't use.
+links:
+  - name: Email
+    url: mailto:you@example.com
+  - name: Google Scholar
+    url: https://scholar.google.com/
+  - name: GitHub
+    url: https://github.com/eaf4030
+  - name: LinkedIn
+    url: https://www.linkedin.com/
+
+permalink: /blog/:year/:title/
+markdown: kramdown
+exclude:
+  - README.md
