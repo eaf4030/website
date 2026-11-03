@@ -9,11 +9,7 @@ the University of Texas at Austin.
 
 My research is in mechanism design, auctions, and the economics of
 marketplaces. Lately I've been focused on what happens when AI agents interact
-with one another: how they communicate strategically, what information they
-share or withhold, and how they respond to incentives. I use economic theory to
-work out what agents *should* do in these settings, then test whether they
-actually do it, for example by building benchmarks that measure agent behavior
-against the predictions of game theory.
+with one another.
 
 ## Research {#research}
 
