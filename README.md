@@ -9,8 +9,7 @@ No build tools are needed. Edit the files and push.
 | What you want to change       | File                                   |
 |-------------------------------|----------------------------------------|
 | Name, tagline, footer links   | `_config.yml`                          |
-| About / home page             | `index.md`                             |
-| Research papers               | `research.md` (PDFs go in `papers/`)   |
+| Bio and research (home page)  | `index.md`                             |
 | Blog posts                    | `_posts/YYYY-MM-DD-title.md`           |
 | Colors, fonts, spacing        | `assets/style.css`                     |
 | Page layout (header/footer)   | `_layouts/default.html`                |
@@ -31,7 +30,7 @@ Write the post here in Markdown.
 ## Add a paper
 
 1. Put the PDF in `papers/`.
-2. In `research.md`, copy a `<div class="paper">` block and edit the title,
+2. In `index.md` (Research section), copy a `<div class="paper">` block and edit the title,
    authors, abstract and PDF link.
 
 ## Publishing with GitHub Pages

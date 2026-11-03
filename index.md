@@ -2,23 +2,30 @@
 layout: default
 ---
 
-# Hi, I'm Your Name.
+# Your Name
 
-I'm a researcher working on **[your field]**. My work looks at
-[one sentence about the questions you care about].
+I'm a research data scientist at Google. I received my PhD in economics from
+the University of Texas at Austin.
 
-Before this, I [short background — degree, institution, or current role].
+My research is in mechanism design, auctions, and the economics of
+marketplaces. Lately I've been focused on what happens when AI agents interact
+with one another: how they communicate strategically, what information they
+share or withhold, and how they respond to incentives. I use economic theory to
+work out what agents *should* do in these settings, then test whether they
+actually do it, for example by building benchmarks that measure agent behavior
+against the predictions of game theory.
 
-On this site you'll find my [research](research/) and a [blog](blog/)
-where I write about ideas I'm thinking through.
+## Research {#research}
 
-## Recent posts
+<!-- To add a paper: copy one <div class="paper"> block below and edit it.
+     Put the PDF in the papers/ folder and link to it as /papers/filename.pdf,
+     or link to an external page (arXiv, SSRN, journal). -->
 
-<ul class="post-list">
-{% for post in site.posts limit:3 %}
-  <li>
-    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    <span class="date">{{ post.date | date: "%b %Y" }}</span>
-  </li>
-{% endfor %}
-</ul>
+<div class="paper">
+  <h3>Paper title coming soon</h3>
+  <p class="authors">Author names</p>
+  <p>Abstract coming soon.</p>
+  <p class="paper-links">
+    <a href="#">Paper</a>
+  </p>
+</div>

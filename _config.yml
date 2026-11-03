@@ -1,6 +1,6 @@
 # Site settings — edit these first.
 title: Your Name
-description: Researcher. Writing about ideas, research, and whatever I'm thinking about.
+description: Economist and research data scientist at Google working on mechanism design, auctions, marketplaces, and how AI agents interact.
 email: you@example.com
 # Custom domain (efarahani.com) is used, so baseurl stays empty.
 baseurl: ""
