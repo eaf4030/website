@@ -2,10 +2,9 @@
 title: Your Name
 description: Researcher. Writing about ideas, research, and whatever I'm thinking about.
 email: you@example.com
-# Leave baseurl empty if the repo is named <username>.github.io.
-# If the repo has another name (e.g. personal-website), set baseurl: "/personal-website"
+# Custom domain (efarahani.com) is used, so baseurl stays empty.
 baseurl: ""
-url: ""
+url: "https://efarahani.com"
 
 # Links shown in the footer. Delete any you don't use.
 links:
