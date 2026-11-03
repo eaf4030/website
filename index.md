@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Your Name
+# Ebrahim Farahani
 
 I'm a research data scientist at Google. I received my PhD in economics from
 the University of Texas at Austin.
