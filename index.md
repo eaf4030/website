@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Ebrahim Farahani
+# Ebrahim Aliabadi Farahani
 
 I'm a research data scientist at Google. I received my PhD in economics from
 the University of Texas at Austin.
