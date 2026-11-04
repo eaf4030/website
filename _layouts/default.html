@@ -24,11 +24,5 @@
     {{ content }}
   </main>
 
-  <footer class="site-footer">
-    <div class="links">
-      {% for link in site.links %}<a href="{{ link.url }}">{{ link.name }}</a>{% endfor %}
-    </div>
-    <p>© {{ site.time | date: '%Y' }} {{ site.title }}</p>
-  </footer>
 </body>
 </html>

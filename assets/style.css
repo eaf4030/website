@@ -1,22 +1,13 @@
 ---
 ---
 :root {
-  --bg: #fbfaf7;
+  color-scheme: light;
+  --bg: #ffffff;
   --text: #1f1d1a;
   --muted: #6b665e;
   --accent: #8a3b12;
   --rule: #e4e0d8;
-  --card: #f3f1ec;
-}
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #161514;
-    --text: #e9e6e0;
-    --muted: #a19b91;
-    --accent: #e39a6c;
-    --rule: #2e2c29;
-    --card: #1f1e1c;
-  }
+  --card: #f6f6f4;
 }
 
 * { box-sizing: border-box; }
@@ -73,15 +64,6 @@ code { font-size: 0.85em; background: var(--card); padding: 2px 5px; border-radi
 .paper-links { font-family: Inter, system-ui, sans-serif; font-size: 15px; }
 .paper-links a { margin-right: 16px; }
 
-.site-footer {
-  border-top: 1px solid var(--rule);
-  padding: 24px 0 48px;
-  font-family: Inter, system-ui, sans-serif;
-  font-size: 14px;
-  color: var(--muted);
-}
-.site-footer .links { display: flex; flex-wrap: wrap; gap: 8px 20px; margin-bottom: 8px; }
-.site-footer p { margin: 0; }
 
 @media (max-width: 520px) {
   body { font-size: 17px; }
