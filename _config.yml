@@ -1,21 +1,14 @@
 # Site settings — edit these first.
 title: Ebrahim Aliabadi Farahani
 description: Economist and research data scientist at Google working on mechanism design, auctions, marketplaces, and how AI agents interact.
-email: you@example.com
 # Custom domain (efarahani.com) is used, so baseurl stays empty.
 baseurl: ""
 url: "https://efarahani.com"
 
 # Links shown in the footer. Delete any you don't use.
 links:
-  - name: Email
-    url: mailto:you@example.com
-  - name: Google Scholar
-    url: https://scholar.google.com/
   - name: GitHub
     url: https://github.com/eaf4030
-  - name: LinkedIn
-    url: https://www.linkedin.com/
 
 permalink: /blog/:year/:title/
 markdown: kramdown
