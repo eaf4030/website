@@ -3,8 +3,21 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
-  <meta name="description" content="{{ page.description | default: site.description }}">
+  {% if page.paper_id %}{% assign paper = site.data.papers | where: "id", page.paper_id | first %}
+  <title>{{ paper.title | escape }} · {{ site.title }}</title>
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <!-- Google Scholar tags -->
+  <meta name="citation_title" content="{{ paper.title | escape }}">
+  {% for a in paper.authors %}<meta name="citation_author" content="{{ a | escape }}">
+  {% endfor %}<meta name="citation_publication_date" content="{{ paper.date | date: '%Y/%m/%d' }}">
+  <meta name="citation_online_date" content="{{ paper.date | date: '%Y/%m/%d' }}">
+  <meta name="citation_pdf_url" content="{{ paper.pdf | absolute_url }}">
+  <meta name="citation_abstract_html_url" content="{{ page.url | absolute_url }}">
+  <meta name="citation_abstract" content="{{ paper.abstract | escape }}">
+  <meta name="description" content="{{ paper.abstract | truncate: 300 | escape }}">
+  {% else %}
+  {% seo %}
+  {% endif %}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Inter:wght@400;500&display=swap" rel="stylesheet">

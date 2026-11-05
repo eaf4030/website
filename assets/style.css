@@ -70,3 +70,8 @@ code { font-size: 0.85em; background: var(--card); padding: 2px 5px; border-radi
   h1 { font-size: 28px; }
   .post-list li { flex-direction: column; gap: 2px; }
 }
+
+.paper h3 a { color: var(--text); text-decoration: none; }
+.paper h3 a:hover { color: var(--accent); }
+.paper-page h1 { font-size: 30px; }
+.paper-page .authors, .paper-page .venue { font-family: Inter, system-ui, sans-serif; }

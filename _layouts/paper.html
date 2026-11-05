@@ -1,0 +1,18 @@
+---
+layout: default
+---
+{% assign paper = site.data.papers | where: "id", page.paper_id | first %}
+<article class="paper-page">
+  <p class="meta"><a href="{{ '/#research' | relative_url }}">← Research</a></p>
+  <h1>{{ paper.title }}</h1>
+  <p class="authors">{{ paper.authors | join: ", " }}</p>
+  <p class="venue">{{ paper.status }}</p>
+
+  <h2>Abstract</h2>
+  <p>{{ paper.abstract }}</p>
+
+  <p class="paper-links">
+    <a href="{{ paper.pdf | relative_url }}">Download PDF</a>
+    {% if paper.ssrn %}<a href="{{ paper.ssrn }}">SSRN</a>{% endif %}
+  </p>
+</article>
