@@ -11,6 +11,8 @@ My research is in mechanism design, auctions, and the economics of
 marketplaces. Lately I've been focused on what happens when AI agents interact
 with one another.
 
+<p class="profile-links"><a href="https://www.linkedin.com/in/ebrahim-f-35977aa1/">LinkedIn</a></p>
+
 ## Research {#research}
 
 <!-- Papers are listed in _data/papers.yml (see the instructions at the top of that file). -->

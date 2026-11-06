@@ -75,3 +75,4 @@ code { font-size: 0.85em; background: var(--card); padding: 2px 5px; border-radi
 .paper h3 a:hover { color: var(--accent); }
 .paper-page h1 { font-size: 30px; }
 .paper-page .authors, .paper-page .venue { font-family: Inter, system-ui, sans-serif; }
+.profile-links { font-family: Inter, system-ui, sans-serif; font-size: 15px; margin-top: 4px; }
