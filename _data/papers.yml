@@ -33,3 +33,25 @@
     importance of evaluating strategic AI agents under different institutional
     arrangements rather than inferring their behavior from performance in a
     single environment.
+
+- id: agent-mediated-search
+  title: "Agent-Mediated Search, Preference Compression, and Congestion in Matching Markets"
+  authors:
+    - Ebrahim Aliabadi Farahani
+  date: 2026-11-01
+  status: Working paper, November 2026
+  pdf: /papers/agent-mediated-search.pdf
+  # ssrn: https://papers.ssrn.com/...
+  abstract: >-
+    As AI agents increasingly search for opportunities on behalf of people,
+    they may fundamentally change how matching markets operate. By examining
+    many more alternatives at little additional cost, agents can help users
+    find better matches. Yet agents may not fully understand the preferences of
+    the people they represent. When preference information is incomplete,
+    agents may rely on common measures of quality and direct users with
+    different tastes toward the same alternatives. In markets with limited
+    capacity, these correlated choices can create congestion and offset the
+    benefits of broader search. We study this tradeoff in a simple model and a
+    controlled hotel-choice experiment. Our analysis shows that, despite
+    expanding the set of opportunities users can explore, AI-mediated search
+    can leave them worse off than searching without an agent.
